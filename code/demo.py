@@ -4,9 +4,10 @@
 # Written by Qiang Wang (wangqiang2015 at ia.ac.cn)
 # --------------------------------------------------------
 #!/usr/bin/python
+import numpy as np
 
 import glob, cv2, torch
-import numpy as np
+
 from os.path import realpath, dirname, join
 
 from net import SiamRPNvot
